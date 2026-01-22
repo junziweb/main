@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+   <title>Z-TICs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/3.css">
+  </head>
+<body class="w3-content" style="max-width:1300px">
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <h1>Z-TIC</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Inicio</a>
+      <a href="#servicio" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Servicios</a>
+      <a href="#servicio" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Tecnologías</a>
+      <a href="#contacto" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contacto</a>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>Logo</h1>
+      <img src="../img/ztic.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
+      <div class="w3-left-align w3-padding-large">
+        			<p>Experiencia en Informática, Electrónica y las Tecnologías de la Información y las Telecomunicaciones.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="servicio">
+          <div class="w3-padding-64">
+            <h2>Servicios</h2>
+                  <br>
+                  <p>Mantenimiento básico preventivo y correctivo de hardware <br> y software en dispositivos de cómputo y móviles.</p>
+                  <br>
+                  <p>Configuración e instalación de equipo de cómputo.</p>
+                  <br>
+                  <p>Desarrollo de aplicaciones web y móviles Android.</p>
+          </div>
+
+            <div class="w3-row">
+                        <div class="w3-half">
+                          <img src="/w3images/coffee.jpg" style="width:100%">
+                        </div>
+                        <div class="w3-half">
+                          <img src="/w3images/workbench.jpg" style="width:100%">
+                        </div>
+            </div>
+
+            <div class="w3-row w3-hide-small">
+                          <div class="w3-half">
+                            <img src="/w3images/workbench.jpg" style="width:100%">
+                          </div>
+                          <div class="w3-half">
+                            <img src="/w3images/coffee.jpg" style="width:100%">
+                          </div>
+            </div>
+
+            <div class="w3-row w3-hide-small">
+                    <div class="w3-half">
+                      <img src="/w3images/sound.jpg" style="width:100%">
+                    </div>
+                    <div class="w3-half">
+                      <img src="/w3images/workbench.jpg" style="width:100%">
+                    </div>
+            </div>
+            <br>
+         <p>Just call me awesome.</p>
+
+  </div>
+
+  
+        <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+              <div class="w3-padding-64 w3-center">
+                <h2>Tecnologías</h2>
+                      <div class="w3-container w3-responsive">
+                      <p>Web Frameworks</p>
+
+                                            <div class="w3-half">
+                                              <p>Bootstrap</p>
+                                              <img src="../img/boo.png" style="width:50%">
+                                            </div>
+                                            <div class="w3-half">
+                                              <p>Font Awesome</p>
+                                              <img src="../img/font.png" style="width:50%">
+                                            </div>
+                      
+                      </div>
+              </div>
+        </div>
+
+</div>
+
+<!-- Third Grid: Swing By & Contact -->
+<div class="w3-row" id="contacto">
+
+  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
+      <div class="w3-padding-64">
+        <h1>Lenguajes de programación</h1>
+      </div>
+
+  </div>
+
+
+
+    <div class="w3-half w3-teal w3-container" style="height:700px">
+
+      <div class="w3-padding-64 w3-padding-large">
+        <h1>Contacto</h1>
+        <p class="w3-opacity">GET IN TOUCH</p>
+          <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+                <div class="w3-section">
+                  <label>Nombre</label>
+                  <input class="w3-input" style="width:100%;" type="text" required name="Name">
+                </div>
+                <div class="w3-section">
+                  <label>E-mail</label>
+                  <input class="w3-input" style="width:100%;" type="text" required name="Email">
+                </div>
+                <div class="w3-section">
+                  <label>Mensaje</label>
+                  <input class="w3-input" style="width:100%;" type="text" required name="Message">
+                </div>
+              <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+          </form>
+      </div>
+
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+  <p>Website de contacto</a></p>
+</footer>
+
+</body>
+</html>
